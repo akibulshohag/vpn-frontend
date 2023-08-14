@@ -1,0 +1,33 @@
+.submit {
+  background-color: black;
+  color: #fff;
+  width: 20%;
+}
+
+.submit:hover {
+  background-color: #D12924;
+  color: white;
+}
+
+.message__button{
+  background-color: rgb(2, 3, 8);
+  color: white;
+  margin-top: 10px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: 'Source Serif 4', sans-serif;
+  font-size: 15px;
+  
+}
+.message__button:hover {
+  background-color:rgb(235, 6, 6);
+}
+.address strong{
+  background-color: white !important;
+  color: black !important;
+}
+.address span{
+  background-color: white !important;
+  color: black !important;
+}

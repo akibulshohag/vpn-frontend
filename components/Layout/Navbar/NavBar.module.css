@@ -1,0 +1,154 @@
+.nav__item {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 15px;
+  /* padding: 20px 10px; */
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.nav__dropdown {
+  font-weight: 600;
+  font-size: 15px;
+  /* padding: 20px 10px; */
+  border-radius: 5px;
+  margin-right: 60px;
+  margin-top: 3px;
+  
+}
+
+.dropbtn {
+  /* background-color: #04AA6D; */
+  /* color: white; */
+  /* padding: 16px; */
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  color: black;
+}
+
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+} */
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownContent a:hover {
+  background-color: #ddd;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: black;
+}
+
+.nav__item__button {
+  color: white;
+  font-weight: 700;
+  border: 3px solid black;
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 45px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__item__button:hover {
+  color: white !important;
+  background-color: #ce2b25;
+  border: 3px solid #ce2b25;
+}
+
+.margin__right {
+  margin-right: 400px;
+}
+
+.app__button__style {
+  display: grid;
+  grid-template-columns: 17px auto;
+  grid-gap: 8px;
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  margin: 0px 5px;
+  margin-top: 5px;
+}
+
+.app__button__style:hover {
+  background-color: red;
+}
+.icon {
+  padding: 6px;
+
+}
+.store{
+  margin-top:10px;
+}
+.playstore {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  align-items: center;
+}
+.playstore:hover {
+  background-color: #080808;
+  color: #fff;
+}
+.playstore:hover .icon .store {
+  color: #fff;
+}
+
+
+@media screen and (max-width: 1401px) {
+  .margin__right {
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 1201px) {
+  .margin__right {
+    margin-right: 80px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .nav__item__button{
+    display:none;
+  }
+}
+@media screen and (max-width: 426px) {
+  .nav__item__button{
+    display:none;
+  }
+}
+@media screen and (max-width: 376px) {
+  .nav__item__button{
+    display:none;
+  }
+}
+@media screen and (max-width: 321px) {
+  .nav__item__button{
+    display:none;
+  }
+}

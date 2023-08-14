@@ -1,0 +1,477 @@
+.main {
+  background-color: var(--background-color);
+  font-family: "Inter", sans-serif;
+}
+
+.choose__plan {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.choose__plan h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.choose__plan p {
+  font-size: 18px;
+}
+
+.card__style {
+  padding: 0px 20px;
+}
+
+.step__badge {
+  font-size: 12px;
+  margin-right: 5px;
+  background-color: #ce2b25;
+  color: white;
+  margin-top: 5px;
+  padding: 3px 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.step__one__details {
+  display: grid;
+  grid-template-columns: 65px auto;
+}
+
+.step__one h3 {
+  font-size: 22px;
+  margin-top: 3px;
+}
+
+.step__one p {
+  font-size: 14px;
+  margin-top: 3px;
+}
+.step__two h3 {
+  font-size: 22px;
+  margin-top: 3px;
+}
+
+.step__two p {
+  font-size: 11px;
+  margin-top: 3px;
+}
+.step__three h3 {
+  font-size: 22px;
+  margin-top: 3px;
+}
+
+.step__three p {
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+.review__image {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 50px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.price__card__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-top: 30px;
+}
+
+.popular__package {
+  background-color: white;
+  margin: 55px 0px;
+  text-align: center;
+  padding: 30px 0px;
+  height: 420px;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 3px 21px -3px rgba(0, 0, 0, 0.32);
+  box-shadow: 4px 3px 21px -3px rgba(0, 0, 0, 0.32);
+}
+
+.popular__package h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.popular__package h3 {
+  font-size: 24px;
+  font-weight: 400px;
+  text-decoration: line-through;
+  margin-top: 50px;
+  margin-bottom: -3px;
+}
+
+.popular__package h1 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.popular__package h4 {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.popular__package p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0em;
+}
+
+.active__package {
+  background-color: white;
+  text-align: center;
+  margin-top: 15px;
+  padding: 30px 0px;
+  height: 420px;
+  border-radius: 15px;
+  border: 3px solid #4ca952;
+  -webkit-box-shadow: 4px 3px 21px -3px rgba(0, 0, 0, 0.32);
+  box-shadow: 4px 3px 21px -3px rgba(0, 0, 0, 0.32);
+}
+
+.active__package h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.active__package h3 {
+  font-size: 24px;
+  font-weight: 400px;
+  text-decoration: line-through;
+  margin-top: 50px;
+  margin-bottom: -3px;
+}
+
+.active__package h1 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.active__package h4 {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.active__package p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0em;
+}
+
+.common__package:hover {
+  border: 3px solid #4ca952;
+}
+
+.popular__package:hover {
+  border: 3px solid #4ca952;
+}
+
+.step__three__details {
+  display: grid;
+  grid-template-columns: 750px auto;
+  grid-gap: 30px;
+}
+
+.feature {
+  background-color: white;
+  margin-top: 20px;
+  padding: 30px 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.feature h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.feature ul li {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.credit__card {
+  display: grid;
+  grid-template-columns: 15px 1fr 65px 65px 65px 65px 65px 65px 65px;
+  grid-gap: 5px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.paypal {
+  display: grid;
+  grid-template-columns: 15px 1fr 65px;
+  grid-gap: 5px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.credit__card p {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paypal p {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paypal__form {
+  background-color: white;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+.paypal__form hr {
+  margin: 0rem 0;
+}
+
+.paypal__form h4 {
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.paypal__form h3 {
+  padding: 30px 30px 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.paypal__form p {
+  font-size: 14px;
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+.paypal__button {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding: 10px 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.paypal__button:hover {
+  background-color: #4ca952;
+  transition: 0.1s;
+}
+
+.credit__card__form {
+  padding: 50px 30px;
+  background-color: white;
+}
+
+.input__style {
+  width: 100%;
+  outline: none;
+  margin-top: 3px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.input__select__style {
+  width: 100%;
+  outline: none;
+  margin-top: 3px;
+  border: 1px solid black;
+  padding: 12px;
+  border-radius: 3px;
+}
+
+.credit__card__form p {
+  margin-bottom: 0em;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.credit__card__form h3 {
+  padding: 30px 80px 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.submit__button {
+  margin-left: 80px;
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding: 10px 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.tag__name__style {
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 5px 15px;
+  color: white;
+  background-color: #4ca952;
+  position: absolute;
+  margin: 56px 0px 0px auto;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 16px;
+}
+
+.active__tag__name__style {
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 5px 15px;
+  color: white;
+  background-color: #4ca952;
+  position: absolute;
+  margin: 16px 0px 0px auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 16px;
+}
+
+.badge {
+  position: absolute;
+  text-align: center;
+  margin-top: 55px;
+  padding: 5px 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  color: white;
+  background-color: #4ca952;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 5px;
+}
+
+.active__badge {
+  position: absolute;
+  text-align: center;
+  margin-top: 15px;
+  padding: 5px 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  color: white;
+  background-color: #4ca952;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 5px;
+}
+
+@media screen and (max-width: 1025px) {
+  .step__three__details {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 448px) {
+  .paypal {
+    width: 350px;
+  }
+
+  .paypal__form {
+    width: 360px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .step__badge {
+    height: 24px;
+  }
+
+  .step__one p {
+    font-size: 12px;
+  }
+
+  .step__one__details h3 {
+    font-size: 20px;
+  }
+
+  .choose__plan {
+    padding-top: 30px;
+  }
+
+  .choose__plan h2 {
+    font-size: 20px;
+  }
+
+  .choose__plan p {
+    font-size: 12px;
+  }
+
+  .paypal {
+    width: 380px;
+  }
+
+  .paypal__form {
+    width: 380px;
+    padding: 10px;
+  }
+
+  .review__image {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+/* @media screen and (max-width: 421px) {
+  .paypal {
+    width: 325px;
+  }
+
+  .paypal__form {
+    width: 325px;
+  }
+} */
+
+@media screen and (max-width: 376px) {
+  .paypal {
+    width: 320px;
+  }
+
+  .paypal__form {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 356px) {
+  .paypal {
+    width: 300px;
+  }
+
+  .paypal__form {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .paypal {
+    width: 300px;
+  }
+
+  .paypal__form {
+    width: 300px;
+  }
+}

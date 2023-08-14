@@ -1,0 +1,64 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Serif 4', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.slick-prev:before, .slick-next:before{
+  color: black !important;
+}
+
+.ant-notification-notice{
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 426px) {
+  .slick-prev:before{
+    margin-left: 30px;
+  }
+  .slick-next:before{
+    margin-left: -55px;
+  }
+}
+
+li{
+  list-style-image: url('https://i.ibb.co/0QTcs07/rsz-1check.png');
+  
+}
+
+.nav-link{
+  color: black !important;
+}
+.dropdown-menu{
+  padding:0px 0px;
+  margin-top:2px;
+}
+.navbar-toggler:focus {
+  /* text-decoration: none; */
+  outline: 0;
+  box-shadow: none;
+}
+@media  screen and (max-width:769px){
+  .dropdown-menu{
+    width: 0px;
+  }
+}
+@media  screen and (max-width:321px){
+  .dropdown-menu{
+    width: 0px;
+  }
+}
